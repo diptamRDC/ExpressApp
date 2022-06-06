@@ -4,6 +4,13 @@
  * Url Example : http://localhost:3000/api/query/?instance_url={instance IRL}&access_token={Session Id}&query={query}
  */
 //
+
+/**
+ * To Do:
+ *  1. Include query in the url
+ *  2. Create HTML page and connect with JS
+ *  3. Create a new table to display the records
+ */
 const express = require("express");
 var app = express();
 var jsforce = require("jsforce");
